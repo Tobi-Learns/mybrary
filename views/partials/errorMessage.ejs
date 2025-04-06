@@ -1,0 +1,8 @@
+<!-- <% if (typeof errorMessage !== 'undefined' && errorMessage) { %>
+    <div class="error-message"><%= errorMessage %></div>
+  <% } %>
+   -->
+
+<% if (locals.errorMessage != null) { %>
+  <%= errorMessage %>
+<% } %>
